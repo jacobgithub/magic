@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Magic: the List</title>
+        <link rel="stylesheet" type="text/css" href="../magic/magic.css"/>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+        <script src="magic.js" type="text/javascript"></script>
+	</head>
+	<body>
+
+        <!--Added cards-->
+        <div class="magicAdd">
+        	<h2>Enter cards in box below and click Ok!</h2>
+	    	<form name="addedCards">
+		        <input type="text" name="addedItem"/>
+		    </form>
+		    <div id="addedButton">
+                Ok!
+            </div>    
+		    <br/>
+		    <div id="addedList">
+                <ol class="addedOrderedList">You Have Added These Cards!</ol>
+            </div>
+        </div>
+        <!--Removed cards-->
+        <div class="magicAdd">
+		<h2>Enter cards in box below and click Ok!</h2>
+        	<form name="removedCards">
+		        <input type="text" name="removedItem"/>
+		    </form>
+		    <div id="removedButton">
+                Ok!
+            </div>    
+		    <br/>
+		    <div id="removedList">
+                <ol class="removedOrderedList">You Have Added These Cards!</ol>
+            </div>
+        </div>
+		
+	</body>
+</html>
