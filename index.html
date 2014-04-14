@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+    <script src="javascripts/magic.js" type="text/javascript"></script>
 
     <title>Magic by jacobgithub</title>
   </head>
@@ -25,9 +28,39 @@
         </section>
       </div>
     </header>
-
+            
     <div class="container">
       <section id="main_content">
+
+<!--Added cards-->
+        <div class="magicAdd">
+          <h2>Enter cards in box below and click Ok!</h2>
+        <form name="addedCards">
+            <input type="text" name="addedItem"/>
+        </form>
+        <div id="addedButton">
+                Ok!
+            </div>    
+        <br/>
+        <div id="addedList">
+                <ol class="addedOrderedList">You Have Added These Cards!</ol>
+            </div>
+        </div>
+        <!--Removed cards-->
+        <div class="magicAdd">
+    <h2>Enter cards in box below and click Ok!</h2>
+          <form name="removedCards">
+            <input type="text" name="removedItem"/>
+        </form>
+        <div id="removedButton">
+                Ok!
+            </div>    
+        <br/>
+        <div id="removedList">
+                <ol class="removedOrderedList">You Have Added These Cards!</ol>
+            </div>
+        </div>
+
         <p>Excellent! Magic: the Gathering is probably the coolest game in the world!</p>
 
 <p>I love this, because I always try and make new decks, but I need to remember what cards I've taken out of my deck and what cards I've put in!</p>
