@@ -7,4 +7,4 @@ If only I had two lists where I could do that.  OH WAIT! I do now!  Awesome!
 What else can Magic: the list do?
 -All sorts of stuff hahaha!
 
--http://www.roflcopterdown.com
+-https://www.roflcopterdown.com
